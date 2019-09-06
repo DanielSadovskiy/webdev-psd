@@ -17,21 +17,25 @@
 </head>
 
 <body>
+    <div id="toTop"><i class="fas fa-chevron-up"></i></div>
     <header class="menu-bar">
         <div class="container">
             <div class="row">
-                <div class="col-xl-2">
+                <div class="col-xl-2 logo-bar" >
                     <img src="/img/logo.png" alt="logo" class="logo">
+                    <button class="menu-icon"><i class="fas fa-bars"></i></button>
                 </div>
                 <div class="col-xl-8 ml-auto align-self-center">
                     <nav>
                         <ul class="menu d-flex justify-content-end">
                             <li class="menu__item"><a href="#">Home</a></li>
-                            <li class="menu__item"><a href="#">About</a></li>
-                            <li class="menu__item"><a href="#">Servicing</a></li>
-                            <li class="menu__item"><a href="#">Portfolio</a></li>
-                            <li class="menu__item"><a href="#">Blog</a></li>
-                            <li class="menu__item"><a href="#">Contact us</a></li>
+                            <li class="menu__item"><a href="#about">About</a></li>
+                            <li class="menu__item"><a href="#servicing">Servicing</a></li>
+                            <li class="menu__item"><a href="#portfolio">Portfolio</a></li>
+                            <li class="menu__item"><a href="#pricing">Pricing</a></li>
+                            <li class="menu__item"><a href="#team">Team</a></li>
+                            <li class="menu__item"><a href="#blog">Blog</a></li>
+                            <li class="menu__item"><a href="#contact">Contact us</a></li>
                             <li class="menu__item"><i class="fas fa-search"></i></li>
                         </ul>
                     </nav>
@@ -51,7 +55,7 @@
             </div>
         </div>
     </header>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 ">
@@ -61,31 +65,31 @@
                 </div>
             </div>
             <div class="row justify-content-around">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img src="/img/internet.png" alt="internet">
-                    <h3 class="about__h3">Awesome Icons</h2>
-                        <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
-                            maxime
-                            voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
+                    <h3 class="about__h3">Awesome Icons</h3>
+                    <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
+                        maxime
+                        voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img src="/img/transfer.png" alt="transfer">
-                    <h3 class="about__h3">One Page</h2>
-                        <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
-                            maxime
-                            voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
+                    <h3 class="about__h3">One Page</h3>
+                    <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
+                        maxime
+                        voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img src="/img/head.png" alt="head">
-                    <h3 class="about__h3">Fully responsive</h2>
-                        <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
-                            maxime
-                            voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
+                    <h3 class="about__h3">Fully responsive</h3>
+                    <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
+                        maxime
+                        voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="servicing">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 ">
@@ -98,7 +102,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="services__card">
                         <i class="card__icon fas fa-mobile-alt"></i>
                         <h3 class="services__title">Research</h3>
@@ -108,7 +112,7 @@
                         <button class="button_services">Read More</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="services__card">
                         <i class="card__icon fas fa-photo-video"></i>
                         <h3 class="services__title">Portfolio</h3>
@@ -118,7 +122,7 @@
                         <button class="button_services">Read More</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="services__card">
                         <i class="card__icon fas fa-question"></i>
                         <h3 class="services__title">Support</h3>
@@ -128,7 +132,7 @@
                         <button class="button_services">Read More</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="services__card">
                         <i class="card__icon fas fa-pencil-alt"></i>
                         <h3 class="services__title">Design</h3>
@@ -138,7 +142,7 @@
                         <button class="button_services">Read More</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="services__card">
                         <i class="card__icon fas fa-book"></i>
                         <h3 class="services__title">Documentation</h3>
@@ -148,7 +152,7 @@
                         <button class="button_services">Read More</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="services__card">
                         <i class="card__icon fas fa-code"></i>
                         <h3 class="services__title">Development</h3>
@@ -161,7 +165,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 ">
@@ -231,41 +235,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 ">
-                    <h2 class="about_title">About us</h2>
-                    <p class='about_text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto iure numquam
-                        maxime deleniti voluptate consequatur non nesciunt? Expedita, odio nobis!</p>
-                </div>
-            </div>
-            <div class="row justify-content-around">
-                <div class="col-xl-3">
-                    <img src="/img/internet.png" alt="internet">
-                    <h3 class="about__h3">Awesome Icons</h2>
-                        <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
-                            maxime
-                            voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
-                </div>
-                <div class="col-xl-3">
-                    <img src="/img/transfer.png" alt="transfer">
-                    <h3 class="about__h3">One Page</h2>
-                        <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
-                            maxime
-                            voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
-                </div>
-                <div class="col-xl-3">
-                    <img src="/img/head.png" alt="head">
-                    <h3 class="about__h3">Fully responsive</h2>
-                        <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nihil
-                            maxime
-                            voluptate? Corrupti quae praesentium tempore perspiciatis beatae quia voluptate?</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 ">
@@ -277,8 +247,8 @@
                         soluta! Cum, delectus quibusdam.</p>
                 </div>
             </div>
-            <div class="row tariff">
-                <div class="col-xl-4">
+            <div class="row tariff justify-content-center">
+                <div class="col-xl-4 col-md-6">
                     <div class=price__card>
                         <div class="price__head">
                             <p>Free Trail</p>
@@ -297,7 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class=price__card>
                         <div class="price__head">
                             <p>Free Trail</p>
@@ -316,7 +286,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class=price__card>
                         <div class="price__head">
                             <p>Free Trail</p>
@@ -338,7 +308,7 @@
             </div>
         </div>
     </section>
-    <section class="team">
+    <section class="team" id="team">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 ">
@@ -351,7 +321,7 @@
                 </div>
             </div>
             <div class="row multiple-items justify-content-center">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-12">
                     <img src="img/team1.png" alt="">
                     <h4>John Doe</h4>
                     <p>General Manager</p>
@@ -382,7 +352,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-12">
                     <img src="img/team2.png" alt="">
                     <h4>John Doe</h4>
                     <p>General Manager</p>
@@ -413,7 +383,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-12">
                     <img src="img/team3.png" alt="">
                     <h4>John Doe</h4>
                     <p>General Manager</p>
@@ -444,7 +414,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-12">
                     <img src="img/team1.png" alt="">
                     <h4>John Doe</h4>
                     <p>General Manager</p>
@@ -475,7 +445,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-12">
                     <img src="img/team3.png" alt="">
                     <h4>John Doe</h4>
                     <p>General Manager</p>
@@ -506,7 +476,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-12">
                     <img src="img/team2.png" alt="">
                     <h4>John Doe</h4>
                     <p>General Manager</p>
@@ -537,7 +507,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-12">
                     <img src="img/team1.png" alt="">
                     <h4>John Doe</h4>
                     <p>General Manager</p>
@@ -572,7 +542,7 @@
 
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 ">
@@ -584,13 +554,11 @@
                         soluta! Cum, delectus quibusdam.</p>
                 </div>
             </div>
-            <div class="row left">
-
-                <div class="col-xl-6">
-                    <img src="/img/blog1.png" alt="">
+            <div class=" row blog__item left">
+                <div class="col-xl-6 col-md-6">
+                    <img src="/img/blog1.png" alt="" class="img-fluid">
                 </div>
-
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-md-6">
                     <div class="blogpost">
                         <a href="#">Seo Quis Vestibulum</a>
                         <div>
@@ -604,13 +572,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row right">
-
-                <div class="col-xl-6">
-                    <img src="/img/blog1.png" alt="">
+            <div class="row  blog__item right">
+                <div class="col-xl-6 col-md-6">
+                    <img src="/img/blog1.png" alt="" class="img-fluid">
                 </div>
-
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-md-6">
                     <div class="blogpost">
                         <a href="#">Seo Quis Vestibulum</a>
                         <div>
@@ -624,13 +590,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row left">
-
-                <div class="col-xl-6">
-                    <img src="/img/blog1.png" alt="">
+            <div class="row blog__item left">
+                <div class="col-xl-6 col-md-6">
+                    <img src="/img/blog1.png" alt="" class="img-fluid">
                 </div>
-
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-md-6">
                     <div class="blogpost">
                         <a href="#">Seo Quis Vestibulum</a>
                         <div>
@@ -655,7 +619,7 @@
 
     </section>
     <footer>
-        <div class="footer">
+        <div class="footer" id="contact">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8 ">
@@ -667,20 +631,20 @@
                             soluta! Cum, delectus quibusdam.</p>
                     </div>
                 </div>
-                <div class="row justify-content-around">
-                    <div class="col-xl-3 contact-item">
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-md-4 contact-item">
                         <div class="circle">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <p>Ukraine, Lviv</p>
                     </div>
-                    <div class="col-xl-3 contact-item">
+                    <div class="col-xl-3 col-md-4 contact-item">
                         <div class="circle">
                             <i class="fas fa-phone fa-rotate-90"></i>
                         </div>
                         <a href="tel:0980891407">0980891407</a>
                     </div>
-                    <div class="col-xl-3 contact-item">
+                    <div class="col-xl-3 col-md-4 contact-item">
                         <div class="circle">
                             <i class="fas fa-envelope"></i>
                         </div>
@@ -702,14 +666,14 @@
                     </div>
                 </div>
 
-                
+
 
 
 
 
             </div>
         </div>
-       
+
     </footer>
     <footer class="rules">all rights reserved 2019</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
