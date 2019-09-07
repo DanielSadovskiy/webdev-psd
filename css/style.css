@@ -23,6 +23,7 @@ h3 {
 
 .menu__item {
     margin-left: 26px;
+    text-decoration: none;
 }
 
 .menu__item a {
@@ -618,17 +619,28 @@ div[filter]:hover .portfolio__img-text {
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
-    nav {
-        text-align: center;
-        height: 100vh;
-        display: none;
+@media screen and (max-width: 1200px){
+    .menu__item{
+        font-size: 10px;
+        margin-left: 15px;
     }
+}
+@media screen and (max-width: 1024px) {
     .menu__item{
         padding: 2.5vh 0;
     }
     .menu__item:hover{
         background: #00897b;
+    }
+    .blog__item{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 992px) {
+    nav {
+        text-align: center;
+        height: 100vh;
+        display: none;
     }
     .logo-bar {
         display: flex;
@@ -645,28 +657,93 @@ div[filter]:hover .portfolio__img-text {
         cursor: pointer;
     }
 }
-@media screen and (max-width: 1024px) {
-    .blog__item{
-        margin-bottom: 40px;
-    }
-}
 @media screen and (max-width: 768px) {
-    .right {
+    .right div:first-child {
         order: 1;
+    }
+    .right div:last-child {
+        order: 2;
+    }
+    .footer i{
+        font-size: 30px;
+    }
+    .circle{
+        width: 50px;
+        height: 50px;
+    }
+    .blog{
+        padding: 30px;
     }
     .blogpost {
         margin: 0px 0 50px 0;
     }
-   
+    .blog__button{
+        margin-top: 0;
+    }
+    .blog__item > div{
+        width: 100%;
+    }
+    .footer{
+        padding: 30px;
+    }
     .team img {
-        max-width: 248px;
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 576px){
     .team img {
-        max-width: 200px;
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 480px){
-    
+    .header{
+        padding: 20px;
+    }
+    .header__title{
+        font-size: 45px;
+    }
+
+    .header button{
+        margin-bottom: 20px;
+    }
+    .about{
+        padding: 20px;
+    }
+    .about_text{
+        margin-bottom: 30px;
+    }
+    .services{
+        padding: 20px;
+    }
+    .services__text{
+        margin-bottom: 30px;
+    }
+    .portfolio{
+        padding: 20px;
+    }
+    .portfolio__text{
+        margin-bottom: 30px;
+    }
+    .portfolio button{
+        margin-bottom: 10px;
+        padding: 8px 18px;
+    }
+    .filter{
+        padding: 20px;
+    }
+    .pricing {
+        padding: 20px;
+    }
+    .team{
+        padding: 20px;
+    }
+    .team__text{
+        margin-bottom: 30px;
+    }
+    .multiple-items{
+        margin: 0;
+    }
+    .team img{
+        max-width: 280px;
+    }
 }
