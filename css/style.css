@@ -41,7 +41,7 @@ h3 {
     text-align: center;
     color: #fff;
     padding: 180px 0;
-    background-image: url("../img/header.png");
+    background-image: url("../img/header.jpg");
     background-size: cover;
     background-position: 0 100%;
 }
@@ -509,7 +509,7 @@ div[filter]:hover .portfolio__img-text {
     position: relative;
     padding: 60px 80px;
     color: #fff;
-    background: url('../img/footer.png');
+    background: url('../img/footer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
