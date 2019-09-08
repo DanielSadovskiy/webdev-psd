@@ -55,6 +55,7 @@ $(document).ready(function () {
       });
       if ($('.menu-icon').html() == '<i class="fas fa-bars" aria-hidden="true"></i>') {
          $(this).html('<i class="fas fa-times"></i>');
+         ('.menu-icon').click();
       } else {
          $(this).html('<i class="fas fa-bars"></i>');
 
@@ -78,6 +79,9 @@ $(window).resize(function () {
          'flex-direction': 'row'
       });
 
+   }
+   else if($(window).width() < '993' && $('.menu-icon').html() == '<i class="fas fa-times" aria-hidden="true"></i>'){
+      $('.menu-icon').click();
    }
    else {
       $('nav').css({
