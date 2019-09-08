@@ -55,7 +55,7 @@ $(document).ready(function () {
       });
       if ($('.menu-icon').html() == '<i class="fas fa-bars" aria-hidden="true"></i>') {
          $(this).html('<i class="fas fa-times"></i>');
-         ('.menu-icon').click();
+         
       } else {
          $(this).html('<i class="fas fa-bars"></i>');
 
