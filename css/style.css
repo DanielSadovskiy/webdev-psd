@@ -384,6 +384,9 @@ div[filter]:hover .portfolio__img-text {
     align-items: stretch;
 }
 
+.menu-icon{
+    text-align: center;
+}
 .menu-icon>div {
     width: 35px;
     height: 5px;
