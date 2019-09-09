@@ -33,7 +33,7 @@ $(document).ready(function () {
          }
       }]
    });
-   $('ul.menu a[href^="#"').click(function () {
+   $('.menu__a').click(function () {
       var target = $(this).attr('href');
       $('html, body').animate({
          scrollTop: $(target).offset().top
