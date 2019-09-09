@@ -38,7 +38,7 @@ $(document).ready(function () {
       $('html, body').animate({
          scrollTop: $(target).offset().top
       }, 500);
-      $('ul.menu a[href^="#"').css({
+      $('ul.menu a[href^="#"]').css({
          'color': '#212121'
       });
       $(this).css({

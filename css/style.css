@@ -384,6 +384,13 @@ div[filter]:hover .portfolio__img-text {
     align-items: stretch;
 }
 
+.menu-icon>div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 .team img {
     max-width: 100%;
     margin: 0 auto;
@@ -449,7 +456,6 @@ div[filter]:hover .portfolio__img-text {
     color: #000;
     text-align: center;
 }
-
 
 .left>div:first-child {
     order: 1;
@@ -619,23 +625,25 @@ div[filter]:hover .portfolio__img-text {
     display: none;
 }
 
-@media screen and (max-width: 1200px){
-    .menu__item{
+@media screen and (max-width: 1200px) {
+    .menu__item {
         font-size: 10px;
         margin-left: 15px;
     }
 }
+
 @media screen and (max-width: 1024px) {
-    .menu__item{
+    .menu__item {
         padding: 2.5vh 0;
     }
-    .menu__item:hover{
+    .menu__item:hover {
         background: #00897b;
     }
-    .blog__item{
+    .blog__item {
         margin-bottom: 40px;
     }
 }
+
 @media screen and (max-width: 992px) {
     nav {
         text-align: center;
@@ -657,6 +665,7 @@ div[filter]:hover .portfolio__img-text {
         cursor: pointer;
     }
 }
+
 @media screen and (max-width: 768px) {
     .right div:first-child {
         order: 1;
@@ -664,86 +673,87 @@ div[filter]:hover .portfolio__img-text {
     .right div:last-child {
         order: 2;
     }
-    .footer i{
+    .footer i {
         font-size: 30px;
     }
-    .circle{
+    .circle {
         width: 50px;
         height: 50px;
     }
-    .blog{
+    .blog {
         padding: 30px;
     }
     .blogpost {
         margin: 0px 0 50px 0;
     }
-    .blog__button{
+    .blog__button {
         margin-top: 0;
     }
-    .blog__item > div{
+    .blog__item>div {
         width: 100%;
     }
-    .footer{
+    .footer {
         padding: 30px;
     }
     .team img {
         max-width: 300px;
     }
 }
-@media screen and (max-width: 576px){
+
+@media screen and (max-width: 576px) {
     .team img {
         max-width: 300px;
     }
 }
-@media screen and (max-width: 480px){
-    .header{
+
+@media screen and (max-width: 480px) {
+    .header {
         padding: 20px;
     }
-    .header__title{
+    .header__title {
         font-size: 45px;
     }
-
-    .header button{
+    .header button {
         margin-bottom: 20px;
     }
-    .about{
+    .about {
         padding: 20px;
     }
-    .about_text{
+    .about_text {
         margin-bottom: 30px;
     }
-    .services{
+    .services {
         padding: 20px;
     }
-    .services__text{
+    .services__text {
         margin-bottom: 30px;
     }
-    .portfolio{
+    .portfolio {
         padding: 20px;
     }
-    .portfolio__text{
+    .portfolio__text {
         margin-bottom: 30px;
     }
-    .portfolio button{
+    .portfolio button {
         margin-bottom: 10px;
         padding: 8px 18px;
     }
-    .filter{
+    .filter {
         padding: 20px;
     }
     .pricing {
         padding: 20px;
     }
-    .team{
+    .team {
         padding: 20px;
     }
-    .team__text{
+    .team__text {
         margin-bottom: 30px;
     }
-    .multiple-items{
+    .multiple-items {
         margin: 0;
     }
-    .team img{
+    .team img {
         max-width: 280px;
     }
 }
