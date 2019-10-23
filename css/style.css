@@ -655,7 +655,9 @@ div[filter]:hover .portfolio__img-text {
         align-items: center;
     }
     .menu-icon {
-        display: block;
+        display: inline-block;
+        text-align: center;
+        vertical-align: bottom;
         background: #00897b;
         border: none;
         font-size: 25px;
