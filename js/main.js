@@ -1,3 +1,5 @@
+AOS.init();
+
 $(document).ready(function () {
    $(".button").click(function () {
       if ($(this).attr("filter") && $(this).attr("filter") !== "all") {
@@ -26,7 +28,7 @@ $(document).ready(function () {
             slidesToScroll: 2,
          }
       }, {
-         breakpoint: 576,
+         breakpoint: 768,
          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -53,7 +55,8 @@ $(document).ready(function () {
          'display': 'flex',
          'flex-direction': 'column'
       });
-      if ($('.menu-icon').html() == '<i class="fas fa-bars" aria-hidden="true"></i>') {
+      if ($('.menu-icon').children()[0].classList.value == "fas fa-bars") {
+         console.log(3);
          $(this).html('<i class="fas fa-times"></i>');
          
       } else {

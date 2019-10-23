@@ -72,12 +72,15 @@ h3 {
 
 .button:hover {
     background: transparent;
+    
 }
-
+button:hover{
+    cursor: pointer;
+}
 /* About */
 
 .about {
-    padding: 100px 105px;
+    padding: 100px 0 105px;
     background: #fff;
     color: #000;
     text-align: center;
@@ -98,7 +101,7 @@ h3 {
 /* Services */
 
 .services {
-    padding: 100px 105px;
+    padding: 100px 0 105px;
     background: #e4fdf9;
     color: #000;
     text-align: center;
@@ -169,7 +172,7 @@ h3 {
 /* Portfolio */
 
 .portfolio {
-    padding: 100px 105px;
+    padding: 100px 0 105px;
     color: #000;
     text-align: center;
 }
@@ -232,7 +235,7 @@ div[filter]:hover .portfolio__img-text {
 /* Pricing */
 
 .pricing {
-    padding: 100px 105px;
+    padding: 100px 0 105px;
     color: #000;
     text-align: center;
     background: #f0f1f1;
@@ -341,7 +344,7 @@ div[filter]:hover .portfolio__img-text {
 /* Team */
 
 .team {
-    padding: 100px 105px;
+    padding: 100px 0 105px;
     color: #000;
     text-align: center;
     background: #fff;
@@ -387,11 +390,6 @@ div[filter]:hover .portfolio__img-text {
 .menu-icon{
     text-align: center;
 }
-.menu-icon>div {
-    margin-top: 6px;
-    border: 2px solid #000;
-}
-
 .team img {
     max-width: 100%;
     margin: 0 auto;
@@ -452,7 +450,7 @@ div[filter]:hover .portfolio__img-text {
 /* Blog */
 
 .blog {
-    padding: 100px 105px;
+    padding: 100px 0 105px;
     background: #e4fdf9;
     color: #000;
     text-align: center;
@@ -514,7 +512,7 @@ div[filter]:hover .portfolio__img-text {
 
 .footer {
     position: relative;
-    padding: 60px 80px;
+    padding: 60px 0 80px;
     color: #fff;
     background: url('../img/footer.jpg');
     background-repeat: no-repeat;
@@ -697,17 +695,16 @@ div[filter]:hover .portfolio__img-text {
         padding: 30px;
     }
     .team img {
-        max-width: 300px;
+        max-width: 600px;
     }
 }
-
 @media screen and (max-width: 576px) {
     .team img {
-        max-width: 300px;
+        max-width: 230px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 490px) {
     .header {
         padding: 20px;
     }
@@ -755,6 +752,6 @@ div[filter]:hover .portfolio__img-text {
         margin: 0;
     }
     .team img {
-        max-width: 280px;
+        max-width: 170px;
     }
 }
